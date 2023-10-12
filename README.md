@@ -1,8 +1,8 @@
-####Small ChatGPT CLI Application for Raspberry Pi
+#### Small ChatGPT CLI Application for Raspberry Pi
 
 A lightweight command-line interface to interact with OpenAI's GPT models, optimized for Raspberry Pi Zero and similar hardware.
 Installation
-##1. Prerequisites
+## 1. Prerequisites
 
 Ensure you have Python and Pip installed. If not, run:
 
@@ -10,7 +10,7 @@ Ensure you have Python and Pip installed. If not, run:
   sudo apt-get upgrade
   sudo apt-get install python3 python3-pip
 
-##2. Clone the Repository
+## 2. Clone the Repository
 
 Clone this repository to your Raspberry Pi:
 
@@ -19,23 +19,23 @@ Clone this repository to your Raspberry Pi:
 
 Replace your-github-username with your actual GitHub username.
 
-##3. Install Dependencies
+## 3. Install Dependencies
 
 Install the required Python libraries:
 
   pip3 install openai configparser
 
-##4. Make the Script Executable
+##4 . Make the Script Executable
 
   chmod +x chat
 
-##5. Global Access
+## 5. Global Access
 
 To make the script accessible from anywhere in the CLI, move it to a directory in your PATH:
 
   sudo mv chat /usr/local/bin/
 
-###Usage:
+### Usage:
 
 From anywhere in the CLI, run:
 
