@@ -25,7 +25,7 @@ Install the required Python libraries:
 
   `pip3 install openai configparser`
 
-##4 . Make the Script Executable
+## 4 . Make the Script Executable
 
   `chmod +x chat`
 
