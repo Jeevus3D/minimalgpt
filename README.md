@@ -7,9 +7,9 @@ A lightweight command-line interface to interact with OpenAI's GPT models, optim
 
 Ensure you have Python and Pip installed. If not, run:
 
-  `sudo apt-get update
-  `sudo apt-get upgrade
-  `sudo apt-get install python3 python3-pip
+`sudo apt-get update'
+`sudo apt-get upgrade'
+`sudo apt-get install python3 python3-pip'
 
 ### 2. Clone the Repository
 
