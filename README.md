@@ -1,4 +1,4 @@
-#### Small ChatGPT CLI Application for Raspberry Pi
+# Small ChatGPT CLI Application for Raspberry Pi
 
 A lightweight command-line interface to interact with OpenAI's GPT models, optimized for Raspberry Pi Zero and similar hardware.
 Installation
