@@ -36,7 +36,7 @@ To make the script accessible from anywhere in the CLI, move it to a directory i
 
   `sudo mv chat /usr/local/bin/`
 
-### Usage:
+## Usage:
 
 From anywhere in the CLI, run:
 
