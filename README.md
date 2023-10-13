@@ -26,7 +26,7 @@ Install the required Python libraries:
 
 ### 4 . Make the Script Executable
 
-  `chmod +x chat`
+  `chmod +x chat.py`
 
 ### 5. Global Access
 
