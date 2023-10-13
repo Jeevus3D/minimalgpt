@@ -32,7 +32,7 @@ Install the required Python libraries:
 
 To make the script accessible from anywhere in the CLI, move it to a directory in your PATH:
 
-  `sudo mv chat /usr/local/bin/`
+  `sudo mv chat.py /usr/local/bin/`
 
 ## Usage:
 
