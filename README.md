@@ -15,10 +15,8 @@ Ensure you have Python and Pip installed. If not, run:
 
 Clone this repository to your Raspberry Pi:
 
-  `git clone https://github.com/your-github-username/chatgpt-app.git`
+  `git clone https://github.com/your-github-username/chatgpt-app.git](https://github.com/Jeevus3D/minimalgpt.git`
   `cd chatgpt-app`
-
-Replace your-github-username with your actual GitHub username.
 
 ### 3. Install Dependencies
 
