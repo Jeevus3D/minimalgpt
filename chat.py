@@ -17,9 +17,9 @@ openai.api_key = api_key
 def query_openai(query):
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4",
             messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "system", "content": "You are specifically designed for assistance with coding to the best of your abilities."},
                 {"role": "user", "content": query}
             ]
         )
