@@ -5,6 +5,7 @@ import configparser
 import sys
 import os
 import time
+import textwrap
 
 # Load configuration
 config = configparser.ConfigParser()
@@ -19,7 +20,7 @@ def query_openai(query):
         response = openai.ChatCompletion.create(
             model="gpt-4",
             messages=[
-                {"role": "system", "content": "You are specifically designed for assistance with coding to the best of your abilities."},
+                {"role": "system", "content": "You are specifically designed to assist with coding to the best of your abilities."},
                 {"role": "user", "content": query}
             ]
         )
@@ -34,4 +35,8 @@ if __name__ == "__main__":
     
     user_query = sys.argv[1]
     response = query_openai(user_query)
-    print(response)
+    
+    # Format the response to wrap text at 80 characters width
+    formatted_response = textwrap.fill(response, width=80)
+    
+    print(formatted_response)
